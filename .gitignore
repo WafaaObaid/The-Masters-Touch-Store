@@ -1,0 +1,21 @@
+# Node modules (if any)
+node_modules/
+
+# Composer vendor (PHP dependencies)
+vendor/
+
+# Environment / config files
+.env
+.env.local
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker specific
+docker-compose.override.yml
