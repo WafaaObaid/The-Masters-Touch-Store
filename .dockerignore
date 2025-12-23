@@ -1,0 +1,26 @@
+# Git files
+.git
+.gitignore
+
+# Local environment / config files
+.env
+.env.local
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+
+# Node or vendor folders if not needed in Docker
+node_modules/
+vendor/
+
+# Documentation
+docs/
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# Docker override files (not needed in image)
+docker-compose.override.yml
