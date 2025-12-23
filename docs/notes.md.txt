@@ -1,0 +1,11 @@
+# Technical Notes
+
+## Biggest Docker Problem
+The most challenging issue I faced while working with Docker was configuring the database. Setting up MySQL with Docker, initializing it with the correct SQL files, and making sure it worked properly with the PHP container took the most effort. I initially struggled with volume mapping, file permissions, and initializing the database schema correctly. There were also issues with container networking and linking the PHP container to the MySQL service. 
+
+To solve this problem, I carefully reviewed the Docker documentation, used proper environment variables for MySQL, and ensured that the SQL initialization files were correctly mounted as read-only volumes. I also learned the importance of checking container logs (`docker logs`) to diagnose issues. After resolving these, the containers ran smoothly, and the database connected successfully with the PHP application.
+
+## Most Important Git/GitHub Lesson
+The most important lesson I learned from Git and GitHub in this assignment is how to organize a project professionally and maintain version control effectively. Properly structuring the repository, adding meaningful `.gitignore` and `.dockerignore` files, and maintaining clear and descriptive commit messages ensures that the project can be easily cloned, built, and run anywhere in the world. 
+
+I also realized the power of using Git for tracking progress, rolling back mistakes, and collaborating efficiently. By committing often with meaningful messages and separating different tasks into clean commits, the repository becomes readable, maintainable, and ready for teamwork or sharing with others. This workflow has strengthened my understanding of professional development practices and highlighted the importance of reproducibility in software projects.
