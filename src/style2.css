@@ -1,0 +1,103 @@
+
+/* Login */
+body {
+    background-color: #baafaf;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+header h1 {
+    font-family: 'Emilys Candy', cursive;
+    font-size: 35px; 
+    color: #562e2e; 
+    text-align: center;
+}
+
+.form-container {
+    background-color: rgb(110, 62, 62);
+    color: white;
+    display: inline-block;
+    padding: 30px 40px;
+    margin-top: 60px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-container input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: burlywood;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: blanchedalmond;
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.create-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: burlywood;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.create-btn:hover {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+footer {
+    background-color: #ad9696;
+    text-align: center;
+    padding: 28px;
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    color: #562e2e;
+    font-weight: bold;
+    margin-top: 35px;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+}
+
+footer a {
+    color: #562e2e;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

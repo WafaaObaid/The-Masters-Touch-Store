@@ -1,0 +1,696 @@
+/* ========== GENERAL ========== */
+body {
+  background-color: rgb(225, 214, 201);
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  color: #3d2f2f;
+  line-height: 1.6;
+}
+
+/* ========== NAVIGATION ========== */
+.navbar {
+  list-style: none;
+  text-align: center;
+  background-color: #ad9696;
+  padding: 15px 0;
+  margin: 0;
+  border-radius: 25px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 18px;
+}
+
+.navbar a {
+  color: #562e2e;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #2e1a1a;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* ========== HEADINGS ========== */
+h1 {
+  font-size: 42px;
+  color: #562e2e;
+  text-align: center;
+  margin-top: 45px;
+  font-family: "Emilys Candy", cursive;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+h3, h4 {
+  font-size: 26px;
+  color: #5a2d2d;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* ========== BUTTONS ========== */
+button, .button {
+  background-color: #9e7c7c;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+}
+
+button:hover, .button:hover {
+  background-color: #876363;
+  transform: scale(1.05);
+}
+
+/* ========== IMAGE CARDS ========== */
+.images {
+  text-align: center;
+  margin: 50px 0;
+  display: block;      
+}
+
+
+.images div {
+  display: inline-block;
+  width: 210px;
+  background-color: #b9a4a4;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 12px;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block !important;
+
+}
+
+.images div:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.18);
+}
+
+.images p {
+  margin-top: 12px;
+  font-size: 17px;
+  color: #382b2b;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* ========== ART SECTION ========== */
+.art {
+  width: 92%;
+  margin: 55px auto;
+  padding: 15px;
+  background: #e4cdc8;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.discover {
+  background-color: #ce8f8f;
+  padding: 28px;
+  border-radius: 12px;
+  color: #2c1c1c;
+}
+
+.discover h2 {
+  font-size: 32px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+
+.discover p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+/* ========== SELECT INPUT ========== */
+select {
+  display: block;
+  margin: 0 auto 25px auto;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid #9e7c7c;
+  background-color: #f3e6e1;
+}
+
+/* ========== FOOTER ========= */
+footer {
+  background-color: #ad9696;
+  text-align: center;
+  padding: 28px;
+  font-family: 'Times New Roman', serif;
+  font-size: 16px;
+  color: #562e2e;
+  font-weight: bold;
+  margin-top: 35px;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+}
+
+footer a {
+  color: #562e2e;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ========== BACKGROUND CHANGE EFFECT ========== */
+@keyframes flash {
+  0%, 100% { background-color: rgb(232, 232, 175); }
+  50% { background-color: transparent; }
+}
+
+.highlight {
+  animation: flash 1s ease-in-out 2;
+  border-radius: 10px;
+}
+
+  /*Signup page*/
+  .body{
+    background-color: #baafaf;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  .welcome{
+    text-align: center;
+  }
+  .forming{
+    color: white;
+    background-color: rgb(110, 62, 62);
+    border-color: bisque;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 15px 15px 0 0;
+  }
+ .forming input[type="text"],
+.forming input[type="email"],
+.forming input[type="password"] {
+    padding: 10px;
+    width: 50%; 
+    max-width: 300px; 
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+  .button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: burlywood;
+    color: black;
+  }
+  .button:hover{
+    background-color: blanchedalmond;
+  }
+  #colorButton{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(110, 62, 62);
+    color: white;
+  }
+  #colorButton:hover{
+    background-color: rgb(148, 97, 97);
+  }
+  select{
+    color: #4b2525;
+    background-color:  #a58e8e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+  }
+  .account-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: burlywood;
+  color: black;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.account-btn:hover {
+  background-color: blanchedalmond;
+  color: black;
+}
+.create-account {
+  text-align: center;
+  margin-top: 15px;
+}
+
+  /*Contact us*/
+  .heart{
+     background-color: #baafaf;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .love{
+    text-align: center;
+  }
+ .form fieldset {
+    color: white;
+    background-color: rgb(110, 62, 62);
+    border: 2px solid white; /* هذا الخط يظهر داخل المستطيل */
+    box-sizing: border-box; /* يضمن أن الحد جزء من حجم المستطيل */
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+ .form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    padding: 10px;
+    width: 50%;
+    max-width: 300px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+.form {
+    text-align: center;
+}
+
+  .map{
+    text-align: center;
+    border-style: groove;
+  }
+
+  /* ========== RESPONSIVE DESIGN ========== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h3, h4 {
+    font-size: 22px;
+  }
+
+  .images div {
+    width: 190px;
+    margin: 10px;
+  }
+
+  .art {
+    width: 95%;
+  }
+
+  .discover {
+    padding: 22px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .navbar {
+    padding: 20px 0;
+  }
+
+  /* Headings */
+  h1 {
+    font-size: 32px;
+  }
+
+  h3, h4 {
+    font-size: 20px;
+  }
+
+  /* Images grid */
+  .images div {
+    width: 85%;
+    margin: 15px auto;
+  }
+
+  /* Art section */
+  .art {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .discover {
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Select */
+  select {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  /* Buttons */
+  button, .button {
+    width: 80%;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  footer {
+    font-size: 15px;
+    padding: 22px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h3, h4 {
+    font-size: 18px;
+  }
+
+  .images div {
+    width: 95%;
+  }
+  @media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro-text,
+  .intro-select {
+    width: 100%;
+  }
+}
+
+  footer {
+    font-size: 14px;
+  }
+}
+/* ===== MENU ICON ===== */
+/* ===== TOP HEADER ===== */
+.top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #e6d9cc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+/* ===== MENU ICON ===== */
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 80px;
+}
+
+
+/* ===== SIDE MENU ===== */
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -280px;    
+    width: 260px;
+    height: 100vh;
+    background-color: #6e3e3e;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 9999;
+}
+
+
+.side-menu.open {
+    left: 0;
+}
+
+
+.close-btn {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+
+.side-menu a {
+  display: block;
+  margin: 15px 0;
+  padding: 10px;
+  color: #3d1f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.side-menu a:hover {
+  background-color: #a07f7f;
+}
+
+.side-menu button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #876363;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+
+/* ===== DARK MODE ===== */
+.dark-mode {
+  background-color: #cfc2b8;
+  color: #3b2b2b;
+}
+
+.dark-mode .images div {
+  background-color: #a48c8c;
+}
+
+.dark-mode .discover {
+  background-color: #b88f8f;
+}
+
+.dark-mode footer {
+  background-color: #9b7f7f;
+}
+
+
+/* ===== INTRO ===== */
+.intro {
+  width: 85%;
+  margin: 40px auto;
+}
+
+.intro-text {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.intro-paragraph {
+  margin-bottom: 20px;
+}
+
+.intro-select select {
+  display: block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #a58e8e;
+  color: #4b2525;
+}
+
+.gallery {
+  clear: both;
+  margin-top: 40px;
+}
+
+/* ===============================
+   CART OVERLAY
+================================ */
+.cart-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+/* ===============================
+   CART MODAL
+================================ */
+#cart-icon {
+    font-size: 22px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+.side-menu.open ~ .top-header #cart-icon {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.cart-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 420px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  font-family: Georgia, serif;
+}
+
+/* ===============================
+   TITLES
+================================ */
+.cart-modal h2,
+.cart-modal h3 {
+  text-align: center;
+  color: #6b3f2b;
+  margin-bottom: 10px;
+}
+
+/* ===============================
+   CART ITEMS
+================================ */
+#cart-items {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+#cart-items li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* ===============================
+   TOTAL
+================================ */
+#cart-total {
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* ===============================
+   FORM
+================================ */
+#payment-form label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#payment-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* ===============================
+   PAYMENT ICONS
+================================ */
+.payment-methods {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.payment-methods img {
+  width: 50px;
+  height: auto;
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+.cart-modal button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #8b5e3c;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cart-modal button:hover {
+  background: #6b3f2b;
+}
