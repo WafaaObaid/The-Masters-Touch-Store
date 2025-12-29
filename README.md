@@ -85,18 +85,22 @@ docker-compose down
 ## Project Structure
 The-Masters-Touch-Store/
 ├── src/
-│   ├── Homepage.php
-│   ├── ContactUs.php
-│   ├── haveAcc.php
-│   ├── haveAccLogic.php
-│   ├── login.php
+│   ├── pages/
+│   │   ├── Homepage.php
+│   │   ├── ContactUs.php
+│   │   ├── haveAcc.php
+│   │   ├── haveAccLogic.php
+│   │   ├── login.php
+│   │   └── signup.php
+│   ├── css/
+│   │   ├── style.css
+│   │   └── style2.css
+│   ├── js/
+│   │   ├── script.js
+│   │   └── script2.js
+│   ├── images/
 │   ├── connectDB.php
-│   ├── signup.php
-│   ├── style.css
-│   ├── style2.css
-│   ├── script.js
-│   ├── script2.js
-│   └── images/
+│   └── index.html
 │
 ├── docs/
 │   ├── notes.md
@@ -107,6 +111,7 @@ The-Masters-Touch-Store/
 ├── .dockerignore
 ├── .gitignore
 └── README.md
+
 
 ## Development Notes
 - All application source code is located inside the src directory
