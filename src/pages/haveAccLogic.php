@@ -1,6 +1,8 @@
 <?php
 session_start();
-include "connectDB.php";
+include __DIR__ . '/../connectDB.php';
+
+
 
 if ($connection->error == false) {
     if (isset($_POST["login"])) {

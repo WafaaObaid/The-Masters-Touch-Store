@@ -63,7 +63,8 @@ cd The-Masters-Touch-Store
 docker-compose up --build
 
 # Open in browser
-http://localhost:8080
+Open http://localhost:8080  
+The landing page (index.html) will load first.
 
 # Stop and clean up
 docker-compose down
