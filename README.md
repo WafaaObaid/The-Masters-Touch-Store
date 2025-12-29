@@ -69,7 +69,7 @@ The landing page (index.html) will load first.
 # Stop and clean up
 docker-compose down
 
----
+`````
 
 ## Configuration
 - The application runs on port 80 inside the Docker container
@@ -77,7 +77,7 @@ docker-compose down
 - No additional environment variables are required
 - Database configuration (if used) is handled in connectDB.php
 
----
+`````
 
 ## How to Use
 - Open http://localhost:8080 in a web browser
@@ -85,7 +85,7 @@ docker-compose down
 - View artwork details
 - Interact with the store interface
 
----
+`````
 
 ## Project Structure
 The-Masters-Touch-Store/
@@ -117,7 +117,7 @@ The-Masters-Touch-Store/
 ├── .gitignore
 └── README.md
 
----
+`````
 
 ## Development Notes
 - All application source code is located inside the src directory
@@ -126,7 +126,7 @@ The-Masters-Touch-Store/
 - Biggest Docker challenge: setting up MySQL database initialization
 - Git/GitHub lesson: keeping the project organized and reproducible for any developer
 
----
+`````
 
 ## About
 This project was created for educational purposes to demonstrate a Dockerized PHP web application with proper Git workflow and project structure.
