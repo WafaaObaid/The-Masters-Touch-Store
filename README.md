@@ -12,10 +12,9 @@ The project is fully Dockerized to ensure easy setup, consistency, and reproduci
 - [Getting Started](#getting-started)
 - [Installation (Docker)](#installation-docker)
 - [Configuration](#configuration)
-- [Project Structure](#project-structure)
 - [Development Notes](#development-notes)
 - [About](#about)
-
+- [Project Structure](#project-structure)
 ---
 
 ## Overview
@@ -84,8 +83,20 @@ docker-compose down
 - Browse the available art paintings
 - View artwork details
 - Interact with the store interface
+```
+## Development Notes
+- All application source code is located inside the src directory
+- Documentation and screenshots are stored in the docs directory
+- Docker ensures consistent behavior across different development environments
+- Biggest Docker challenge: setting up MySQL database initialization
+- Git/GitHub lesson: keeping the project organized and reproducible for any developer
 
-```bash
+---
+
+## About
+This project was created for educational purposes to demonstrate a Dockerized PHP web application with proper Git workflow and project structure.
+
+```
 
 ## Project Structure
 The-Masters-Touch-Store/
@@ -117,17 +128,5 @@ The-Masters-Touch-Store/
 ├── .gitignore
 └── README.md
 
+```
 
-``
-
-## Development Notes
-- All application source code is located inside the src directory
-- Documentation and screenshots are stored in the docs directory
-- Docker ensures consistent behavior across different development environments
-- Biggest Docker challenge: setting up MySQL database initialization
-- Git/GitHub lesson: keeping the project organized and reproducible for any developer
-
-``
-
-## About
-This project was created for educational purposes to demonstrate a Dockerized PHP web application with proper Git workflow and project structure.
