@@ -85,7 +85,7 @@ docker-compose down
 - View artwork details
 - Interact with the store interface
 
-```
+```bash
 
 ## Project Structure
 The-Masters-Touch-Store/
