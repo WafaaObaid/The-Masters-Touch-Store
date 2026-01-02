@@ -3,7 +3,7 @@ session_start();
 
 require_once __DIR__ . '/../connectDB.php';
 
-if (!isset($connection)) {
+if (!isset($connection) || $connection->connect_error) {
     die("DB connection variable not found");
 }
 
