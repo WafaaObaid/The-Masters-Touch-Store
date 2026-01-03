@@ -63,7 +63,7 @@ docker-compose up --build
 
 # Open in browser
 Open http://localhost:8080  
-The landing page (index.html) will load first.
+The landing page (index.php) will load first.
 
 # Stop and clean up
 docker-compose down
