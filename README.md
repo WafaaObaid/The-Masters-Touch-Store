@@ -104,9 +104,9 @@ The-Masters-Touch-Store/
 │   ├── pages/
 │   │   ├── Homepage.php
 │   │   ├── ContactUs.php
-│   │   ├── haveAcc.php
 │   │   ├── haveAccLogic.php
 │   │   ├── login.php
+|   |   ├── connectDB.php
 │   │   └── signup.php
 │   ├── css/
 │   │   ├── style.css
@@ -115,8 +115,7 @@ The-Masters-Touch-Store/
 │   │   ├── script.js
 │   │   └── script2.js
 │   ├── images/
-│   ├── connectDB.php
-│   └── index.html
+│   └── index.php
 │
 ├── docs/
 │   ├── notes.md
