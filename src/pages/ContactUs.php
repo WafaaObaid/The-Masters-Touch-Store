@@ -13,9 +13,9 @@
    <header>
       <nav>
          <ul class="navbar">
-            <li><a href="src/pages/Homepage.php">HomePage</a></li>
-            <li><a href="src/pages/signup.php">Sign Up</a> </li>
-            <li><a href="src/pages/ContactUs.php">Contact Us</a></li>
+            <li><a href="/pages/Homepage.php">HomePage</a></li>
+            <li><a href="/pages/signup.php">Sign Up</a> </li>
+            <li><a href="/pages/ContactUs.php">Contact Us</a></li>
          </ul>
       </nav>
       <h1><i> The Master's Touch</i></h1>
@@ -28,7 +28,7 @@
    </div>
 
 
-   <form class="form" action="src/pages/Homepage.php" method="get">
+   <form class="form" action="/pages/Homepage.php" method="get">
       <fieldset>
          <legend>Personal Information</legend>
          <div>

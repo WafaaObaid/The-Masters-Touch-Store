@@ -3,7 +3,7 @@
 
 <head>
     <title>Sign Up</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Emilys Candy&effect=neon">
 </head>
 
@@ -15,7 +15,7 @@
                 </em></p>
         </div>
     </header>
-    <form class="forming" id="signupForm" action="src/pages/login.php" method="post">
+    <form class="forming" id="signupForm" action="/pages/login.php" method="post">
         <fieldset>
             <legend>Personal Information</legend>
             <div>
@@ -59,7 +59,7 @@
 
             <div class="create-account">
                 <p>Have an account?</p>
-                <a href="src/pages/haveAcc.php" class="account-btn">Go back to your Account</a>
+                <a href="/index.php" class="account-btn">Go back to your Account</a>
         </fieldset>
 
 
@@ -82,7 +82,7 @@
             <p><a href="#">Privacy Policy</a></p>
         </fieldset>
     </footer>
-    <script src="src/js/script2.js"></script>
+    <script src="/js/script2.js"></script>
 </body>
 
 </html>

@@ -17,7 +17,7 @@
     <div class="form-container">
         <h2>Welcome Back! </h2>
 
-        <form action="src/pages/haveAccLogic.php" method="post">
+        <form action="/pages/haveAccLogic.php" method="post">
             <fieldset>
                 <legend>Personal Information</legend>
 
@@ -34,7 +34,7 @@
         </form>
         <div class="create-account">
             <p>Don't have an account?</p>
-            <a href="src/pages/signup.php" class="create-btn">Create Account</a>
+            <a href="/pages/signup.php" class="create-btn">Create Account</a>
         </div>
         </fieldset>
     </div>

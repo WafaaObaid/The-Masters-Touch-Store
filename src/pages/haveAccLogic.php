@@ -1,8 +1,6 @@
 <?php
 session_start();
-include __DIR__ . '/../connectDB.php';
-
-
+require_once __DIR__ . '/connectDB.php';
 
 if ($connection->error == false) {
     if (isset($_POST["login"])) {
@@ -17,7 +15,7 @@ if ($connection->error == false) {
 
             if ($data["password"] === $password) {
                 $_SESSION["authUser"] = $data;
-                header("Location: Homepage.php");
+                header("Location: /pages/Homepage.php");
                 exit();
             } else {
                 echo "Password incorrect!";

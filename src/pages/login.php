@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require_once __DIR__ . '/../connectDB.php';
+require_once __DIR__ . '/connectDB.php';
 
 if (!isset($connection) || $connection->connect_error) {
     die("DB connection variable not found");
@@ -28,7 +28,7 @@ if (isset($_POST["Save"])) {
             "email" => $email
         ];
 
-        header("Location: Homepage.php");
+        header("Location: /pages/Homepage.php");
         exit;
     } else {
         echo "Error: " . $connection->error;
