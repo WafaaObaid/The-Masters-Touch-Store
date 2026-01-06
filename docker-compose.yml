@@ -5,6 +5,11 @@ services:
     build: .
     ports:
       - "8080:80"
+    environment:
+      DB_HOST: db
+      DB_USER: root
+      DB_PASS: 12345
+      DB_NAME: masterstouchstore
     depends_on:
       - db
 
@@ -14,8 +19,6 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: 12345
       MYSQL_DATABASE: masterstouchstore
-    ports:
-      - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
       - ./masterstouchstore.sql:/docker-entrypoint-initdb.d/masterstouchstore.sql:ro
