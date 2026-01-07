@@ -1,9 +1,9 @@
 <?php
 
-$host = getenv("DB_HOST") ?: "localhost";
-$user = getenv("DB_USER") ?: "root";
-$pass = getenv("DB_PASS") ?: "12345";
-$db = getenv("DB_NAME") ?: "masterstouchstore";
+$host = getenv("DB_HOST");
+$user = getenv("DB_USER");
+$pass = getenv("DB_PASS");
+$db = getenv("DB_NAME");
 
 $connection = new mysqli($host, $user, $pass, $db);
 
