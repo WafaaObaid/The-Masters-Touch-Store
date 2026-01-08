@@ -96,6 +96,10 @@ docker-compose down
 The live version of this project is accessible at:  
 [https://artstore1-61vjlkx5.b4a.run/](https://artstore1-61vjlkx5.b4a.run/)
 
+## About
+This project was created for educational purposes to demonstrate a Dockerized PHP web application with proper Git workflow and project structure.
+
+
 ``
 
 ## Project Structure
@@ -128,6 +132,3 @@ The-Masters-Touch-Store/
 └── README.md
 
 ```
-
-## About
-This project was created for educational purposes to demonstrate a Dockerized PHP web application with proper Git workflow and project structure.
