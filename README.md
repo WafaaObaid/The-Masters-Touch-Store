@@ -104,30 +104,10 @@ This project was created for educational purposes to demonstrate a Dockerized PH
 
 ## Project Structure
 The-Masters-Touch-Store/
-├── src/
-│   ├── pages/
-│   │   ├── Homepage.php
-│   │   ├── ContactUs.php
-│   │   ├── haveAccLogic.php
-│   │   ├── login.php
-|   |   ├── connectDB.php
-│   │   └── signup.php
-│   ├── css/
-│   │   ├── style.css
-│   │   └── style2.css
-│   ├── js/
-│   │   ├── script.js
-│   │   └── script2.js
-│   ├── images/
-│   └── index.php
-│
-├── docs/
-│   ├── notes.md
-│   └── screenshots/
-│
-├── Dockerfile
-├── docker-compose.yml
-├── .dockerignore
-├── .gitignore
-└── README.md
-
+├─ src/ ├─ pages/ (Homepage.php, ContactUs.php, haveAccLogic.php, login.php, connectDB.php, signup.php) ├─ css/ (style.css, style2.css) ├─ js/ (script.js, script2.js) ├─ images/ └─ index.php  
+├─ docs/ (notes.md, screenshots/)  
+├─ Dockerfile  
+├─ docker-compose.yml  
+├─ .dockerignore  
+├─ .gitignore  
+└─ README.md
