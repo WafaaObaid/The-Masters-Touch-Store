@@ -131,4 +131,3 @@ The-Masters-Touch-Store/
 ├── .gitignore
 └── README.md
 
-```
