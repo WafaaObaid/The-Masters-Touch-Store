@@ -6,7 +6,7 @@ if (isset($_SESSION["authUser"]) != true) {
   exit();
 }
 
-$name = $_SESSION["authUser"]["name"];
+$name = $_SESSION["authUser"]["username"];
 ?>
 
 

@@ -20,7 +20,7 @@
             <legend>Personal Information</legend>
             <div>
                 <label>Username</label>
-                <input type="text" name="name" required placeholder="Name">
+                <input type="text" name="username" required placeholder="Name">
             </div>
             <br>
             <div>

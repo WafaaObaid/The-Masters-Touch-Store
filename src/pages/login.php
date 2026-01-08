@@ -14,17 +14,17 @@ if ($connection->error) {
 
 if (isset($_POST["Save"])) {
 
-    $name = trim($_POST["name"]);
+    $name = trim($_POST["username"]);
     $email = trim($_POST["email"]);
     $password = trim($_POST["password"]);
     $gender = trim($_POST["gender"]);
 
-    $sql = "INSERT INTO users (name, email, password, gender)
+    $sql = "INSERT INTO users (username, email, password, gender)
             VALUES ('$name', '$email', '$password', '$gender')";
 
     if ($connection->query($sql) === true) {
         $_SESSION["authUser"] = [
-            "name" => $name,
+            "username" => $name,
             "email" => $email
         ];
 
