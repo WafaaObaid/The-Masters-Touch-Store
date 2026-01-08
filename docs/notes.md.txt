@@ -8,3 +8,8 @@ To solve this problem, I carefully reviewed the Docker documentation, used prope
 ## Most Important Git/GitHub Lesson
 The most important lesson I learned from Git and GitHub in this assignment is how to organize a project professionally and maintain version control effectively. Properly structuring the repository, adding meaningful `.gitignore` and `.dockerignore` files, and maintaining clear and descriptive commit messages ensures that the project can be easily cloned, built, and run anywhere in the world. 
 I also realized the power of using Git for tracking progress, rolling back mistakes, and collaborating efficiently. By committing often with meaningful messages and separating different tasks into clean commits, the repository becomes readable, maintainable, and ready for teamwork or sharing with others. This workflow has strengthened my understanding of professional development practices and highlighted the importance of reproducibility in software projects.
+
+## Challenges Faced During VPS Deployment
+Deploying the project to a VPS was generally straightforward and simple. Setting up the server, installing Git and Docker, and running the containers all went smoothly without major issues.
+However, the most challenging part was handling the database. Figuring out how to properly set up MySQL on the server and ensure the application could connect to it was the trickiest stage. I am still exploring the best way to fully manage the database on the live server.
+Overall, while most of the deployment process was easy, the database setup remains the part that requires the most attention and careful handling.
